@@ -13,7 +13,11 @@
     --foreground: #ededed;
   }
 }
-
+@layer utilities {
+  .heading {
+    @apply text-[64px] font-extrabold uppercase bg-black text-white sm:text-[40px] md:text-[50px];
+  }
+}
 body {
   color: var(--foreground);
   background: var(--background);

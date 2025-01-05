@@ -3,7 +3,7 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   /* config options here */
   images: {
-    domains: ['avatars.githubusercontent.com'], // Add this line
+    domains: ["your-domain.com", "avatars.githubusercontent.com"], // Add allowed domains
   },
 };
 
