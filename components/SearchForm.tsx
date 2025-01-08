@@ -10,9 +10,9 @@ const SearchForm = ({ query }: { query?: string }) => {
   };
 
   return (
-    <div className="rounded-md">
-      <Form action="/" scroll={false} className="search-form">
-        <div className="flex items-center justify-center mt-5 mb-10">
+    <div className="rounded-lg">
+      <Form action="/" scroll={false} className="search-form rounded-full">
+        <div className="flex items-center justify-center mt-5 mb-2">
           <div className="bg-white rounded-lg shadow-lg flex items-center lg:w-1/3 w-3/4 relative">
             {/* Input Field */}
             <input
@@ -21,7 +21,7 @@ const SearchForm = ({ query }: { query?: string }) => {
               value={searchTerm}
               onChange={handleChange}
               placeholder="Search for ideas..."
-              className="text-gray-700 text-lg w-full px-4 py-3 focus:outline-none rounded-lg"
+              className="text-gray-700 text-lg w-full px-4 py-3 focus:outline-none rounded-full"
             />
 
             {/* Clear (Cross) Button */}
