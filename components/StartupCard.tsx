@@ -25,7 +25,7 @@ const StartupCard = ({ post }: { post: Startup }) => {
       {/* Date and Views */}
       <div className="flex justify-between items-center mb-4 text-xs sm:text-sm text-gray-600">
         <span>{new Date(post.date).toLocaleDateString()}</span>
-        <span className="flex items-center gap-1">
+        <span className="flex items-center gap-1 hover:scale-110">
           <FaEye /> 20
         </span>
       </div>
@@ -57,7 +57,7 @@ const StartupCard = ({ post }: { post: Startup }) => {
               alt={post.title}
               width={50}
               height={50}
-              className="object-cover w-10 h-10 rounded-full"
+              className="object-cover w-10 h-10 rounded-full hover:scale-125 hover:border-2 hover:border-blue-500"
             />
           </Link>
         </div>
