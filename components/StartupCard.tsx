@@ -50,14 +50,14 @@ const StartupCard = ({ post }: { post: Startup }) => {
             {post.description}
           </p>
         </div>
-        <div>
+        <div className="flex items-center justify-center">
           <Link href={`/user/${post.author.id}`}>
             <Image
               src={post.image}
               alt={post.title}
-              width={40}
+              width={50}
               height={50}
-              className="object-contain w-full h-full rounded-full"
+              className="object-cover w-10 h-10 rounded-full"
             />
           </Link>
         </div>

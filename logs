@@ -1,0 +1,29 @@
+[33mcommit 429dbb3c83f7394e9bf422c4a2e8a55ec552fb61[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: prashantpoudel745 <prashantpoudel745@gmail.com>
+Date:   Wed Jan 8 22:01:21 2025 +0545
+
+    added search and more ui functionality
+
+[33mcommit 0f2d378d89ccd44d71bd6adbbe3d089c8a633b01[m
+Author: prashantpoudel745 <prashantpoudel745@gmail.com>
+Date:   Wed Jan 8 01:06:43 2025 +0545
+
+    added search functionality
+
+[33mcommit 46420d57617faf86c3b3c76f25807e1893817553[m
+Author: prashantpoudel745 <prashantpoudel745@gmail.com>
+Date:   Sun Jan 5 23:43:51 2025 +0545
+
+    search functionality added
+
+[33mcommit 5ae8fb3fe95d549b697c15b2f80badea44c4c9c6[m
+Author: prashantpoudel745 <prashantpoudel745@gmail.com>
+Date:   Sat Jan 4 23:40:17 2025 +0545
+
+     added github authentication
+
+[33mcommit c68fa8dead5b806fb6c954f38002e6987d3f745a[m
+Author: prashantpoudel745 <prashantpoudel745@gmail.com>
+Date:   Sat Jan 4 20:09:37 2025 +0545
+
+    Initial commit from Create Next App
